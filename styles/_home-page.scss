@@ -1,5 +1,9 @@
 /***** Homepage *****/
 
+hero {
+  background-image: url($homepage_background_image);
+}
+
 .section {
   @include tablet {
     margin-bottom: 60px;
