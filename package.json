@@ -10,7 +10,6 @@
     "start": "concurrently \"npm:preview\" \"npm:styles:watch\"",
     "preview": "zat theme preview",
     "watch:scss": "onchange -i \"**/*.scss\" -- npm run scss",
-
     "scss": "./bin/compile.rb",
     "prettier:check": "prettier --check \"./**/*.{js,json,scss,md}\"",
     "prettier:write": "prettier --write \"./**/*.{js,json,scss,md}\"",
