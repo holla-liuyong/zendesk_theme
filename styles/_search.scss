@@ -1,6 +1,6 @@
 /***** Search field *****/
 
-$icon-color: #777;
+$icon-color: #333;
 $padding-left: 40px;
 $padding-right: 20px;
 
@@ -16,10 +16,12 @@ $padding-right: 20px;
   display: flex;
   position: relative;
   transition: $input-transition;
-
-  &:focus-within {
-    border-color: $brand_color;
-  }
+  box-shadow: 0 2px 14px 0 rgba(255, 105, 0, 0.3);
+  border: solid 1px #f9b300;
+  background-color: rgba(255, 255, 255, 0.9);
+  // &:focus-within {
+  //   border-color: $brand_color;
+  // }
 
   input[type="search"], 
   .clear-button {

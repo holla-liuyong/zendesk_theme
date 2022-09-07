@@ -1,5 +1,5 @@
 /***** Header *****/
-$header-height: 71px;
+$header-height: 80px;
 
 .header {
   @include max-width-container;
@@ -26,6 +26,37 @@ $header-height: 71px;
 
 .logo a:hover, .logo a:focus, .logo a:active {
   text-decoration: none;
+}
+
+.logo .custom-back {
+  padding: 0 20px;
+  height: 46px;
+  border-radius: 27px;
+  background-color: #170a2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo .custom-back .arrow-icon {
+  width: 8px;
+  height: 15px;
+}
+
+.logo .custom-back .back-text {
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.custom-middle {
+  width: 190px;
+  height: 64px;
+}
+
+.custom-middle-logo {
+  width: 190px;
+  height: 64px;
 }
 
 .user-nav {
